@@ -8,7 +8,7 @@ class Launcher{
         }
       this.pointB=pointB
      this.launcher = Constraint.create(options);
-        World.add(world, this.sling);
+        World.add(world, this.launcher);
     }
 fly(){
     this.launcher.bodyA=null
